@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;">
+            <div style="background-color: bisque;">div 1</div>
+            <div style="background-color: pink;">div 2<p>text</p></div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px">
+            <div style="background-color: bisque;">100px</div>
+            <div style="background-color: pink;">100px<p>text</p></div>
+            <div style="background-color: bisque;">200px</div>
+            <div style="background-color: pink;">100px</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr">
+            <div style="background-color: bisque;">100px</div>
+            <div style="background-color: pink;">1fr(freespace)</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr 2 fr">
+            <div style="background-color: bisque;">100px</div>
+            <div style="background-color: pink;">1fr</div>
+            <div style="background-color: bisque;">2fr</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;">
+            <div style="background-color: bisque; height: 200px;">1fr</div>
+            <div style="background-color: pink; height: 200px;">1fr</div>
+            <div style="background-color: bisque; height: 200px;">1fr</div>
+            <div style="background-color: pink; height: 200px;">1fr</div>
+            <div style="background-color: bisque; height: 200px;">1fr</div>
+            <div style="background-color: pink; height: 200px;">1fr</div>
+        </div>
+    </body>
+</html>
